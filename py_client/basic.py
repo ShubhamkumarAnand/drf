@@ -7,9 +7,11 @@ get_response = requests.get(
     endpoint, params={"abc": 123}, json={"query": "Hello World"})  # HTTP Request
 
 
-# HTTP Request -> HTML
-# REST API HTTP Request -> JSON
-# JavaScript Object Notation ~ Python Dictionary
+"""
+    HTTP Request -> HTML
+    REST API HTTP Request -> JSON
+    JavaScript Object Notation ~ Python Dictionary
+"""
 
 # print(get_response.headers)
 print(get_response.json())

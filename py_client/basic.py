@@ -11,5 +11,6 @@ get_response = requests.get(
 # REST API HTTP Request -> JSON
 # JavaScript Object Notation ~ Python Dictionary
 
-print(get_response.json())
-# print(get_response.status_code)
+print(get_response.headers)
+# print(get_response.json())
+print(get_response.status_code)
